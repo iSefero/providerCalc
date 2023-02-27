@@ -1,7 +1,12 @@
+import backblaze from "../assets/logo/backblaze.jpg"
+import bunny from "../assets/logo/bunny.png"
+import scaleway from "../assets/logo/scaleway.png"
+import vultr from "../assets/logo/vultr.jpg"
+
 export const providerInfo = [
   {
     name: "backblaze",
-    logo: "https://media.licdn.com/dms/image/C4E0BAQHd0U0QW5dH1w/company-logo_100_100/0/1656939596077?e=1683158400&v=beta&t=VfXZ7qt2aRRpn9xh3GR9wNcultFX9Tv7c9x0EqfBgds",
+    logo: backblaze,
     color: "red",
     value: 0,
     valueStorage: 0,
@@ -12,7 +17,7 @@ export const providerInfo = [
   },
   {
     name: "bunny",
-    logo: "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/310213724_596094838913527_7273302277921969525_n.png?stp=cp0_dst-png_p40x40&_nc_cat=105&ccb=1-7&_nc_sid=c6021c&_nc_ohc=qNrV13aOvFIAX8smL42&_nc_ht=scontent-iev1-1.xx&oh=00_AfDk3x__EjDbIP0MVpIEi6FA8bJ3bb05Gbgj0Gw5Zuxu4A&oe=63DD5660",
+    logo: bunny,
     color: "yellow",
     value: 0,
     valueStorage: 0,
@@ -23,7 +28,7 @@ export const providerInfo = [
   },
   {
     name: "scaleway",
-    logo: "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/327198296_1555909408251341_6066452107574761438_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=107&ccb=1-7&_nc_sid=c6021c&_nc_ohc=ga7gBStDHdYAX8zQma2&_nc_ht=scontent-iev1-1.xx&oh=00_AfDHtM-SniJ-dAV041_KJx73MkzGN60d67HXAvyAYXpL-g&oe=63DD0A43",
+    logo: scaleway,
     color: "purple",
     value: 0,
     valueStorage: 0,
@@ -36,7 +41,7 @@ export const providerInfo = [
   },
   {
     name: "vultr",
-    logo: "https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-1/281563125_3395607604003867_95555190912971398_n.jpg?stp=cp0_dst-jpg_p40x40&_nc_cat=110&ccb=1-7&_nc_sid=c6021c&_nc_ohc=JrXyTuph2fAAX_NihEA&_nc_ht=scontent-iev1-1.xx&oh=00_AfC1TkTJdsBWjOFdQhAPE-WUH6x1ac26GdJxA_nlUHgZzQ&oe=63DBF767",
+    logo: vultr,
     color: "lightblue",
     value: 0,
     valueStorage: 0,
